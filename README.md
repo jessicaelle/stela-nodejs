@@ -1,7 +1,10 @@
-![Stela](https://dl.dropboxusercontent.com/s/gvgjb957qfczlul/fg-github-stela.png "Stela logo")
+<p align="center">
+<a href="https://docs.forestgiant.com/#stela" target="_blank"><img src="https://dl.dropboxusercontent.com/s/rtqinu44giaelja/Stela-Logo-Horz-Grey.svg?dl=0" height="150" alt="Stela logo"/></a>
+</p>
 
-[![Docs](https://dl.dropboxusercontent.com/s/94r940hpxv1z17f/github-button-stela.png "Stela API Docs")](https://docs.forestgiant.com/stela/api/?toggle=node)
-[![Gitter](https://dl.dropboxusercontent.com/s/j38ui4m1vwhb7qq/github-button-chat.png "Stela on Gitter")](https://gitter.im/forestgiant/Lobby)
+<p align="center">
+<a href="https://docs.forestgiant.com/stela/api/?toggle=node" target="_blank"><img src="https://img.shields.io/badge/docs-stela%20api-3DB55B.svg" height="25" alt="Stela API Docs"/></a>   <a href="https://gitter.im/forestgiant/Lobby" target="_blank"><img src="https://img.shields.io/badge/chat-gitter-E1463D.svg" height="25" alt="Forest Giant on Gitter"/></a>
+</p>
 
 This package provides a StelaClient which can be used to communicate with a [Stela server](https://github.com/forestgiant/stela) using the gRPC protocol and Node.js.  With the exception of the `Close` method, which finishes immediately, the methods make use of Promises to return response objects.
 
